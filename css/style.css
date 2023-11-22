@@ -16,12 +16,8 @@ body {
     background-color: black;
 }
 
-html {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
-    max-width: 1170px;
+.container_bg {
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -31,4 +27,8 @@ html {
 
 .avatar {
     max-width: 300px;
+}
+
+img {
+    width: 100%;
 }
