@@ -9,7 +9,7 @@
 }
 
 :root {
-    --bg-success: #1ABC9C;
+    --bg_green: #1ABC9C;
 }
 
 /* 
@@ -22,6 +22,14 @@ body {
 .container_bg {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+.bg_green {
+    background-color: var(--bg_green);
+}
+
+.custom_green {
+    color: var(--bg_green);
 }
 
 /*
