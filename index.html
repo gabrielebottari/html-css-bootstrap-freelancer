@@ -96,14 +96,32 @@
             </div>
 
             <div class="container_bg bg-white">
-                <div class="container-sm container-md container-lg  p-3 text-center">
-                    <div class="p-2">
+                <div class="container-sm container-md p-3">
+                    <div class="p-2 text-center">
                         <h2>CONTACT ME</h2>
                         <p class="display-1"><i class="bi bi-dash-lg"> </i><i class="bi bi-star-fill"></i> <i class="bi bi-dash-lg"></i></p>
                     </div>
+
+                    <form class="p-10">
+                        <div class="form-group p-2">
+                          <label for="name">Name</label>
+                          <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group p-2">
+                          <label for="email">Email Address</label>
+                          <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group p-2">
+                          <label for="message">Phone Number</label>
+                          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Send</button>
+                      </form>
                     
                 </div>
             </div>
+
+           
 
         </main>
         <!-- Fine Main -->
