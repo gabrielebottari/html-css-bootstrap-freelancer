@@ -43,5 +43,13 @@ img {
     width: 150px;
     border-radius: 5px;
 }
+
+input[type=text], input[type=email], input[type=number], .form-control {
+    margin: 10px 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid lightgray;
+}
+
     
 
